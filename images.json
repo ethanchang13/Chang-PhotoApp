@@ -1,82 +1,94 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/movies/Train To Busan.jpg",
+            "imgLocation": "Train to Busan",
+            "description": "A tense South Korean zombie thriller about a father protecting his daughter on a train.",
+            "date": "2016"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/movies/Parasite.webp",
+            "imgLocation": "Parasite",
+            "description": "Darkly comic social satire about class conflict that spirals into shocking consequences.",
+            "date": "2019"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/movies/The Shawshank Redemption.jpg",
+            "imgLocation": "The Shawshank Redemption",
+            "description": "An emotional tale of hope and friendship inside a corrupt, brutal prison system.",
+            "date": "1994"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/movies/One Flew Over The Cuckoo's Nest.jpg",
+            "imgLocation": "One Flew Over the Cuckoo's Nest",
+            "description": "A rebellious inmate challenges oppressive mental institution authority, with tragic consequences.",
+            "date": "1975"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/movies/Pan's Labyrinth.webp",
+            "imgLocation": "Pan's Labyrinth",
+            "description": "A haunting fairy-tale set against postwar Spain where a girl discovers a dark fantasy world.",
+            "date": "2006"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/movies/The Banshees of Inisherin.webp",
+            "imgLocation": "The Banshees of Inisherin",
+            "description": "A bleakly funny story of friendship, pride, and escalating small-town consequences on an island.",
+            "date": "2022"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/movies/3 Idiots.webp",
+            "imgLocation": "Three Idiots",
+            "description": "A heartfelt Indian comedy-drama about friendship, creativity, and pressure within engineering college culture.",
+            "date": "2009"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/movies/The Terminator.jpg",
+            "imgLocation": "The Terminator",
+            "description": "A relentless cyborg from the future hunts a woman whose child will change humanity's fate.",
+            "date": "1984"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/movies/The Sixth Sense.webp",
+            "imgLocation": "The Sixth Sense",
+            "description": "A child psychologist tries to help a boy who sees the dead, with a shocking twist.",
+            "date": "1999"
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
+            "imgPath": "img/movies/Coherence.webp",
+            "imgLocation": "Coherence",
+            "description": "A low-budget, mind-bending sci-fi thriller about strange events during a dinner party cosmic anomaly.",
+            "date": "2013"
         },
         {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
+            "imgPath": "img/movies/PI.jpg",
+            "imgLocation": "PI",
+            "description": "A paranoid mathematical prodigy descends into obsession while pursuing a mysterious numerical pattern.",
+            "date": "1998"
         },
         {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
+            "imgPath": "img/movies/Ratatouille.webp",
+            "imgLocation": "Ratatouille",
+            "description": "An unlikely rat becomes a gourmet chef in Paris, learning about passion, creativity, and identity.",
+            "date": "2007"
         },
         {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/movies/Coco.webp",
+            "imgLocation": "Coco",
+            "description": "A young boy journeys into the Land of the Dead to uncover family history and pursue music.",
+            "date": "2017"
+        },
+        {
+            "imgPath": "img/movies/Spirited Away.jpg",
+            "imgLocation": "Spirited Away",
+            "description": "A magical coming-of-age adventure where a girl navigates a mysterious spirit world to save her parents.",
+            "date": "2001"
+        },
+        {
+            "imgPath": "img/movies/Your Name.png",
+            "imgLocation": "Your Name",
+            "description": "A beautifully told body-swapping romance connecting two young people across time and distance.",
+            "date": "2016"
         }
-  ]
+    ]
 }
