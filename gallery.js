@@ -13,8 +13,14 @@ $(document).ready(() => {
   // - slideToggle the visibility of the .details section
 
   // Select the "Next Photo" button and add a click event to call showNextPhoto
+  $('#nextPhoto').click(function () {
+    showNextPhoto()
+  })
 
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
+  $('#prevPhoto').click(function () {
+    showPrevPhoto()
+  })
 
   // Call fetchJSON() to load the initial set of images
   fetchJSON()
@@ -57,12 +63,22 @@ function swapPhoto () {
 function showNextPhoto () {
   // Increment mCurrentIndex and call swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
+  mCurrentIndex++
+  if (mCurrentIndex >= mImages.length) {
+    mCurrentIndex = 0
+  }
+  swapPhoto()
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto () {
   // Decrement mCurrentIndex and call swapPhoto()
   // Ensure it loops to the end if mCurrentIndex is less than 0
+  mCurrentIndex--
+  if (mCurrentIndex < 0) {
+    mCurrentIndex = mImages.length - 1
+  }
+  swapPhoto()
 }
 
 // Starter code for the timer function
