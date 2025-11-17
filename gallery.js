@@ -7,10 +7,15 @@ $(document).ready(() => {
   $('.details').hide() // Hide details initially
 
   // Call a function here to start the timer for the slideshow
+  startTimer()
 
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)
   // - slideToggle the visibility of the .details section
+  $('.moreIndicator').click(function () {
+    $(this).toggleClass('rot90 rot270')
+    $('.details').slideToggle()
+  })
 
   // Select the "Next Photo" button and add a click event to call showNextPhoto
   $('#nextPhoto').click(function () {
@@ -86,4 +91,7 @@ function startTimer () {
   // Create a timer to automatically call `showNextPhoto()` every mWaitTime milliseconds
   // Consider using setInterval to achieve this functionality
   // Hint: Make sure only one timer runs at a time
+  setInterval(function () {
+    showNextPhoto()
+  }, mWaitTime)
 }
