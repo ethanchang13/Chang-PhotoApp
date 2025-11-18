@@ -32,7 +32,7 @@ $(document).ready(() => {
 })
 
 // Function to fetch JSON data and store it in mImages
-function fetchJSON () {
+function fetchJSON() {
   // Use $.ajax here to request the JSON data from mUrl
   // On success, parse the JSON and push each image object into mImages array
   // After JSON is loaded, call swapPhoto() to display the first image
@@ -51,21 +51,21 @@ function fetchJSON () {
 }
 
 // Function to swap and display the next photo in the slideshow
-function swapPhoto () {
+function swapPhoto() {
   // Access mImages[mCurrentIndex] to update the image source and details
   // Update the #photo element's src attribute with the current image's path
   // Update the .location, .description, and .date elements with the current image's details
   if (mImages.length > 0) {
     const currentImage = mImages[mCurrentIndex]
     $('#photo').attr('src', currentImage.imgPath)
-    $('.location').text('Location: ' + currentImage.imgLocation)
+    $('.location').text('Movie Name: ' + currentImage.imgLocation)
     $('.description').text('Description: ' + currentImage.description)
-    $('.date').text('Date: ' + currentImage.date)
+    $('.date').text('Release Date: ' + currentImage.date)
   }
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
-function showNextPhoto () {
+function showNextPhoto() {
   // Increment mCurrentIndex and call swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
   mCurrentIndex++
@@ -76,7 +76,7 @@ function showNextPhoto () {
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
-function showPrevPhoto () {
+function showPrevPhoto() {
   // Decrement mCurrentIndex and call swapPhoto()
   // Ensure it loops to the end if mCurrentIndex is less than 0
   mCurrentIndex--
@@ -87,7 +87,7 @@ function showPrevPhoto () {
 }
 
 // Starter code for the timer function
-function startTimer () {
+function startTimer() {
   // Create a timer to automatically call `showNextPhoto()` every mWaitTime milliseconds
   // Consider using setInterval to achieve this functionality
   // Hint: Make sure only one timer runs at a time
